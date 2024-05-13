@@ -1,0 +1,189 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1px;
+    padding: 1px;
+    background: linear-gradient(rgb(36, 27, 27), 60%, rgba(2, 1, 1, 0.473));
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    /*background: linear-gradient(rgb(143, 137, 137), rgba(88, 132, 186, 0.856));*/
+}
+
+header {
+    background-color: rgba(218, 165, 33, 0.89);
+    color:black;
+    padding: 4px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 1px;
+    margin: 1px;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 200px;
+}
+
+nav ul li a {
+    color:black;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+nav ul li ul.Saga {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(218, 165, 32, 0.97);
+    top:100%;
+    width: 9cm;
+}
+
+nav ul li:hover ul.Saga {
+    display: block;
+}
+
+nav ul li ul.Saga li {
+    display: block;
+}
+
+nav ul li ul.Saga a {
+    display: block;
+}
+
+nav ul li ul.arcos {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 180%;
+    background-color: rgba(218, 165, 32, 0.97);
+    width: 10cm;
+    padding: 1px;   
+}
+
+nav ul li ul.arcos li {
+    display: block;
+}
+
+nav ul li ul.arcos a {
+    display: block;
+}
+
+nav ul li ul.personajes {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(218, 165, 32, 0.97);
+    top:100%;
+    width: 4cm;
+}
+
+nav ul li:hover ul.personajes {
+    display: block;
+}
+
+nav ul li ul.organizaciones {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(218, 165, 32, 0.97);
+    top:100%;
+    width: 3cm;
+}
+
+nav ul li:hover ul.organizaciones {
+    display: block;
+}
+
+main {
+    color: whitesmoke;
+}
+
+table {
+    border-radius: 1;
+    width: 50%;
+}
+
+tr {
+    border: solid white;
+    text-align: center;
+}
+
+.saga {
+    color: rgb(207, 234, 255);
+    font-weight: bold;
+}
+
+.saga p {
+    font-weight: normal;
+}
+
+ul li p {
+    color:whitesmoke;
+}
+
+.canon {
+    height: 5px;
+    background-color:rgba(218, 165, 32, 0.829);
+    width: 10px;
+    border-radius: 8px;
+}
+
+.canon_anime {
+    height: 5px;
+    background-color:rgb(32, 150, 154);
+    width: 10px;
+    border-radius: 8px;
+}
+
+.relleno {
+    height: 5px;
+    background-color: rgba(185, 40, 40, 0.806);
+    width: 10px;
+    border-radius: 8px;
+
+}
+
+.mixto {
+    height: 5px;
+    background-color:rgba(121, 53, 184, 0.874);
+    width: 10px;
+    border-radius: 8px;
+}
+
+.saga img {
+    float: right;
+    margin-right: 160px;
+    width: auto;
+    height: 200px;
+}
+
+.contenido {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+table {width: 100%;border-collapse: collapse;  
+}  
+  
+th, td {border: 1px solid black;padding: 8px;  
+}  
+  
+thead {background-color: black;  
+}  
+  
+tbody tr:nth-child(even) {background-color: black;  
+}  
+
+.barco img {
+    margin-right: 90px;
+    margin-left: 20px;
+    width: auto;
+    height: 205px;
+}
